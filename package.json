@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.3.0"
+  },
+  "name": "employeedatabase",
+  "description": "A CLI application to view, update and manage a company's employee database.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teresagithub17/employeeDatabase.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker",
+    "employee",
+    "database",
+    "node.js",
+    "inquirer",
+    "mysql2"
+  ],
+  "author": "Teresa Pilapil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teresagithub17/employeeDatabase/issues"
+  },
+  "homepage": "https://github.com/teresagithub17/employeeDatabase#readme"
+}
