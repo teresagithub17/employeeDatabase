@@ -254,7 +254,7 @@ let employee_database = function () {
             });
         } else if (answers.prompt === 'Log Out') {
             db.end();
-            console.log("Good-Bye!");
+            console.log("Goodbye!");
         }
     })
 };
