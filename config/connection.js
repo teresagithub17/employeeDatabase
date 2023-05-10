@@ -8,11 +8,11 @@ const con = mysql.createConnection({
     database: 'employee_db'
 });
 
-con.promise().query("SELECT 1")
-  .then( ([rows,fields]) => {
-    console.log(rows);
-  })
-  .catch(console.log)
-  .then( () => con.end());
+// con.promise().query("SELECT 1")
+//   .then( ([rows,fields]) => {
+//     console.log(rows);
+//   })
+//   .catch(console.log)
+//   .then( () => con.end());
 
-  module.exports = db;
+module.exports = con;
